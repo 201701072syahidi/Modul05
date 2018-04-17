@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<title>Pig Dice Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+  	<link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="wrapper clearfix" >
+			<div class="form">
+					<form class="formcls">
+						<input type="number" class="scorenum" id="scorenum" placeholder="Input Max Score">
+						<input type="button" value="Change Max Score" class="buttonset" id="okmax">
+					</form>
+					<span class="curmax" id="curmax">Current Max Score 50</span>
+			</div>
+            <div class="player-0-panel active-0">
+				<div class="game-panel">
+					<div class="player-name" id="name-0">Player 1</div>
+					<div class="player-score-0" id="score-0">43</div>
+					<div class="player-0-rolled-1"><h3>Silahkan Berganti! lemparan Dadu Kamu 1.</h3></div>
+					<div class="player-0-rolled-2"><h3>Silahkan Berganti! Lemparan Dadu double 6.</h3></div>
+					<div class="player-current-box-0">
+						<div class="player-current-label">Current</div>
+						<div class="player-current-score" id="current-0">11</div>
+					</div>
+				</div>
+            </div>
+            
+            <div class="player-1-panel">
+				<div class="game-panel">
+					<div class="player-name" id="name-1">Player 2</div>
+					<div class="player-score-1" id="score-1">72</div>
+					<div class="player-1-rolled-1"><h3>Silahkan Berganti! lemparan Dadu Kamu 1.</h3></div>
+					<div class="player-1-rolled-2"><h3>Silahkan Berganti! Lemparan Dadu double 6.</h3></div>
+					<div class="player-current-box-1">
+						<div class="player-current-label">Current</div>
+						<div class="player-current-score" id="current-1">0</div>
+					</div>
+				</div>	
+            </div>
+            <div class="game-panel">
+            <button class="btn-new"><i class="ion-ios-plus-outline icon color-0"></i>Permainan Baru</button>
+            <button class="btn-roll"><i class="ion-ios-loop icon color-0"></i>Lempar Dadu</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline icon color-0"></i>Simpan</button>
+			<img src="1-dice-5.png" alt="Dice" class="dice">
+			<p></p>
+			<img src="1-dice-5.png" alt="Dice 2" class="dice2">
+            </div>
+        </div>
+    <script  src="js/index.js"></script>
+</body>
+</html>
